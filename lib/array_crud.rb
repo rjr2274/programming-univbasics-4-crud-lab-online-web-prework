@@ -3,11 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Mercedes", "BMW", "Subaru", "Mazda"]
+  cars = ["Mercedes", "BMW", "Subaru", "Mazda"]
 end
 
 def add_element_to_end_of_array(array, element)
-
+  cars << "Hyundai"
 end
 
 def add_element_to_start_of_array(array, element)
